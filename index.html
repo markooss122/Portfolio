@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio - Desarrollador Full Stack</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="#home">
+                <i class="fas fa-code"></i> Profesional Portfolio
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">Acerca de</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- hero seccion -->
+    <section id="home" class="hero-section d-flex align-items-center justify-content-center">
+        <div class="container text-center hero-content">
+            <div class="blur-container">
+                <div class="circle-blur circle-1"></div>
+                <div class="circle-blur circle-2"></div>
+            </div>
+            <h1 class="display-4 fw-bold animate-fade-in">Marcos Alcega Clariana</h1>
+            <p class="lead animate-fade-in-delay text-light">Full Stack | HTML | CSS | JAVA | PHP</p>
+            <p class="text-secondary animate-fade-in-delay-2">Tranformando ideas en apps completas</p>
+            <a href="#projects" class="btn btn-gradient btn-lg animate-bounce mt-4">
+                Ver mis Proyectos <i class="fas fa-arrow-down ms-2"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Acerca Seccion -->
+    <section id="about" class="about-section py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Acerca de Mí</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4">
+                    <div class="about-image">
+                        <img src="assets/images/pp.jpeg" alt="Foto de perfil" class="profile-image">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content card-blur">
+                        <p class="text-light">Soy un desarrollador apasionado por la tecnología con experiencia en:</p>
+                        <ul class="list-unstyled">
+                            <li class="py-2"><i class="fas fa-check-circle text-success"></i> Desarrollo Web Full Stack</li>
+                            <li class="py-2"><i class="fas fa-check-circle text-success"></i> Backend con PHP, Java y C#</li>
+                            <li class="py-2"><i class="fas fa-check-circle text-success"></i> Frontend con HTML, CSS y JavaScript</li>
+                            <li class="py-2"><i class="fas fa-check-circle text-success"></i> Bases de datos SQL</li>
+                            <li class="py-2"><i class="fas fa-check-circle text-success"></i> Bootstrap y diseño responsivo</li>
+                        </ul>
+                        <p class="text-secondary mt-3">Me dedico a crear experiencias web de calidad, funcionales y modernas que cumplan con los objetivos del negocio.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="skills" class="skills-section py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Mis Habilidades</h2>
+            <div class="row g-4">
+                <!-- HTML -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="skill-card card-blur">
+                        <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                        <h5 class="mt-3">HTML 5</h5>
+                        <p class="text-secondary">Estructura semántica y accesibilidad web</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CSS -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="skill-card card-blur">
+                        <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                        <h5 class="mt-3">CSS 3</h5>
+                        <p class="text-secondary">Diseño responsivo y animaciones</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- JavaScript -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="skill-card card-blur">
+                        <div class="skill-icon"><i class="fab fa-js-square"></i></div>
+                        <h5 class="mt-3">JavaScript</h5>
+                        <p class="text-secondary">Interactividad y dinámismo</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 92%"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- PHP -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="skill-card card-blur">
+                        <div class="skill-icon"><i class="fab fa-php"></i></div>
+                        <h5 class="mt-3">PHP</h5>
+                        <p class="text-secondary">Backend y procesamiento de datos</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 88%"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Java -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="skill-card card-blur">
+                        <div class="skill-icon"><i class="fab fa-java"></i></div>
+                        <h5 class="mt-3">Java</h5>
+                        <p class="text-secondary">Aplicaciones robustas y escalables</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- C# -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="skill-card card-blur">
+                        <div class="skill-icon"><i class="fas fa-code"></i></div>
+                        <h5 class="mt-3">C#</h5>
+                        <p class="text-secondary">.NET y Aplicaciones Windows</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 87%"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- SQL -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="skill-card card-blur">
+                        <div class="skill-icon"><i class="fas fa-database"></i></div>
+                        <h5 class="mt-3">SQL</h5>
+                        <p class="text-secondary">Diseño y optimización de bases de datos</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Bootstrap -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="skill-card card-blur">
+                        <div class="skill-icon"><i class="fab fa-bootstrap"></i></div>
+                        <h5 class="mt-3">Bootstrap</h5>
+                        <p class="text-secondary">Diseño responsivo rápido</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 93%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- proyect section -->
+    <section id="projects" class="projects-section py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Mis Proyectos Destacables</h2>
+            
+            <!-- Projects Grid -->
+            <div class="row g-4">
+                <!-- Los proyectos se generan desde JavaScript -->
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- footer -->
+    <footer class="footer-section py-4 text-center">
+        <div class="container">
+            <p class="mb-0">&copy; Mi propio Portfolio, Diseñado y desarrollado por mí.</p>
+        </div>
+    </footer>
+
+    <!-- modal and project -->
+    <div class="modal fade" id="addProjectModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content modal-dark">
+                <div class="modal-header">
+                    <h5 class="modal-title">Añadir Nuevo Proyecto</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="addProjectForm">
+                        <div class="mb-3">
+                            <label for="projectTitle" class="form-label text-light">Título del Proyecto</label>
+                            <input type="text" class="form-control form-input" id="projectTitle" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="projectDescription" class="form-label text-light">Descripción</label>
+                            <textarea class="form-control form-input" id="projectDescription" rows="3" required></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="projectTechs" class="form-label text-light">Tecnologías (separadas por comas)</label>
+                            <input type="text" class="form-control form-input" id="projectTechs" placeholder="HTML, CSS, JavaScript" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="projectLink" class="form-label text-light">Enlace del Proyecto (opcional)</label>
+                            <input type="url" class="form-control form-input" id="projectLink" placeholder="https://ejemplo.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="projectImage" class="form-label text-light">Selecciona la imagen del proyecto</label>
+                            <input type="file" class="form-control form-input" id="projectImage" accept="image/*" required>
+                        </div>
+                        <button type="submit" class="btn btn-gradient w-100">
+                            <i class="fas fa-check"></i> Guardar Proyecto
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
